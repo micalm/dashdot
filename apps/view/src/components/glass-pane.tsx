@@ -15,8 +15,9 @@ const Container = styled.div<SCProps>`
   display: flex;
   backdrop-filter: blur(20px);
   background-color: ${({ theme }) => theme.colors.surface}44;
-  border-radius: 25px;
-  border: 1px solid ${({ theme }) => theme.colors.text}33;
+  border-radius: 8px;
+  border: 1px solid ${({ theme }) => theme.colors.background}33;
+  box-shadow: 8px 8px 16px -16px ${({ theme }) => theme.colors.surface};
 `;
 
 type GlassPaneProps = {

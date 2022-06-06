@@ -73,7 +73,7 @@ const InfoIcon = styled.div<HardwareInfoProps>`
   left: 20px;
 
   background-color: ${props => props.color};
-  border-radius: 10px;
+  border-radius: 4px;
   box-shadow: 13px 13px 35px 0px rgba(0, 0, 0, 0.15);
 
   transition: background-color 0.5s ease;

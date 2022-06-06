@@ -255,8 +255,8 @@ export const ServerWidget: FC<ServerWidgetProps> = ({ data, config }) => {
           <StandaloneAppendix>dash.</StandaloneAppendix>
         ) : (
           <>
-            <Appendix>dash.</Appendix>
-            <ServerName>{domain}</ServerName>
+            <ServerName>helheim.</ServerName>
+            <Appendix>mical.cloud</Appendix>
           </>
         )}
       </Heading>

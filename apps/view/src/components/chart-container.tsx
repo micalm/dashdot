@@ -15,10 +15,7 @@ const Container = styled.div<ContainerProps>`
 
   min-width: 0;
   background-color: ${({ theme }) => theme.colors.surface};
-  border-radius: ${({ edges: [top, right, bottom, left] }) =>
-    `${top ? '25px' : '10px'} ${right ? '25px' : '10px'} ${
-      bottom ? '25px' : '10px'
-    } ${left ? '25px' : '10px'}`};
+  border-radius: 8px;
   z-index: auto;
 
   transition: background-color 0.3s ease;
@@ -28,10 +25,6 @@ const Container = styled.div<ContainerProps>`
   > div {
     overflow: hidden;
     position: absolute;
-    border-radius: ${({ edges: [top, right, bottom, left] }) =>
-      `${top ? '25px' : '10px'} ${right ? '25px' : '10px'} ${
-        bottom ? '25px' : '10px'
-      } ${left ? '25px' : '10px'}`};
   }
 
   &:before {
